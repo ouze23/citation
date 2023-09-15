@@ -1,0 +1,41 @@
+
+/*Police d'écriture sur google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: linear-gradient(to top, #6b7b8c 0%, #3b4d61 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+section{
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+button {
+    padding: 5px 30px;
+    margin-top: 10px;
+    background-color: #5D97F8;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+button:hover{
+    box-shadow:5px 0px 5px 0px #333;
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
